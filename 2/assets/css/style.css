@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    ---white:#ffffff;
+    ---white2:#e3e3e3;
+    ---grey:#848484;
+    ---whitegrey:#d4d4d4;
+    ---balck:#000000;
+    ---blackgrey:#2e2e2e;
+    ---green:#2dcb71;
+    ---font1: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+   /*  HEADER CSS START  */
+header {
+    background-image: url("..//img/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#hed .cot2{
+    margin-left: 170px;
+    padding-bottom: 170px;
+}
+
+
+#hed nav img{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 160px;
+    width: 100px;
+}
+
+#hed nav p{
+    width: 469px;
+    font: 500 24px var(---font1);
+    line-height: 36px;
+    color:var(---white);
+    margin: 35px 0 25px 0;
+  
+
+}
+
+   /*  HEDER-BODY CSS START  */
+
+.icons1 a{
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color:var(---balck);
+    position: relative;
+    margin: 0 15px 0 0;
+}
+.icons1 i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color:var(---white2);
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+.icons1 :nth-child(3){
+    background-color:var(---green);
+    opacity: 1;
+    color: var(---white);
+}
+
+.icons1 a:hover{
+    background-color: var(---green);
+}
+
+/*   SECTION-1 CSS START   */
+
+#section1{
+    background-color: var(---white)
+}
+
+#section1 .features{
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+#section1 a{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:var(---green);
+    position: relative;
+    margin: 0 15px 0 0;
+}
+
+#section1 i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: var(---white2);
+    font-size: 40px;
+}
+
+#section1 .features h3{
+    font: 600 22px var(---font1);
+    line-height: 18px;
+    color:var(---balck);
+    margin:30px auto;
+    
+}
+
+#section1 .features p{
+    width: 350px;
+    height: 130px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #848484;
+    font-family:var(---font1);
+
+}
+
+
+
+
+
+/*   SECTION-2 CSS START   */
+
+#section2 {
+    background-color:var(---white2);
+}
+#section2 .get{
+    display: flex;
+    justify-content: space-around;
+}
+
+#section2 .get .b1{
+    margin:60px 0;
+}
+
+#section2 .get h3{
+    font: 600 22px var(---font1);
+    line-height: 18px;
+    color:var(---balck);
+}
+
+#section2 .get p{
+    width: 550px;;
+    font: 16px var(---font1);
+    line-height: 26px;
+    color: #848484;
+    margin:30px 0;
+}
+
+#section2 .get input{
+    width: 400px;
+    background-color: var(---white);
+    border: 1px solid #c8c8c8;
+    outline: none;
+    border-radius: 15px 0 0 15px;
+}
+#section2 .get input::placeholder{
+    font-size: 18px;
+    line-height: 18px;
+    color: #848484;
+    font-family: "Helvetica Neue";
+    padding-left: 25px;
+}
+
+
+
+#section2 .get .btn{
+    font: bold 22px var(---font1);
+    color:var(---white);
+    width: 100px;
+    height: 56px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 0 15px 15px 0;
+}
+
+#section2 .get form{
+    display: flex;
+}
+#section2 .get iframe{
+    border-radius: 20px;
+}
+
+
+
+
+
+/*   SECTION-3 CSS START   */
+
+#section3 .ph{
+    margin-top: 60px;
+}
+#section3 .img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#section3 .ph p{
+    width: 887px;
+    height: 103px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #848484;
+    font-style: italic;
+    font-family: "Helvetica Neue";
+    text-align: center;
+    margin: auto;
+}
+
+#section3 .ph h3{
+    font: bold 18px var(---font1);
+    line-height: 20px;
+    color:var(---blackgrey);
+    text-align: center;
+    margin: 30px 0;
+}
+
+.touch h3{
+    font: 600 24px var(---font1);
+    line-height: 24px;
+    color: var(---balck);
+    display: flex;
+    justify-content: center;
+}
+.touch p{
+    font-size: 16px;
+    line-height: 26px;
+    color:var(---grey);
+    font-family: "Helvetica Neue";
+    display: flex;
+    justify-content:center;
+    margin: 25px 0;
+}
+.touch .social{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 60px;
+}
+.touch .social a{
+    display:inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: var(---whitegrey);
+    position: relative;
+    margin-left: 10px;
+     
+}
+.touch .social i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color:var(---white);
+    font-size: 20px;
+}
+ .touch .social :nth-child(3){
+     background-color: #2dcb71;
+ }
+
+ .touch .social a:hover{
+     background-color: var(---green);
+ }
+
+
+/*   FOUTER CSS START   */
+
+#fut {
+    display: flex;
+    justify-content:center;
+    background-color:var(---white2);
+    padding: 60px 0;
+}
+#fut .contact a{
+    font-size: 20px;
+    line-height: 26px;
+    font-family: "Helvetica Neue";
+    color: var(---grey);
+    text-decoration: none;
+    margin-left: 20px;
+}
+#fut .contact a:hover{
+    color:blueviolet;  
+}
+
+.container2{
+    position: absolute;
+    top: 80%;
+    right: 13%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+  }
+  .switch{
+      position: relative;
+      display: inline-block;
+      width: 120px;
+      height: 70px;
+      margin: 0 10px;
+      
+  }
+  .slider{
+      position: absolute;
+      cursor: pointer;
+      top:0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #6dd1ff;
+      transition: 0.4s;
+      border-radius: 34px;
+  }
+  .switch input{display: none;}
+  .slider:before
+  {   position: absolute;
+      content: "";
+      height: 60px;
+      width: 60px;
+      left: 5px;
+      bottom: 5px;
+      background-color: #3a3838fb;
+      transition: 0.4s;
+      border-radius: 50px;
+
+  }
+  input:checked + .slider
+  {
+      background-color:#010e0e;
+  }
+  input:checked + .slider:before
+  {
+      transform: translateX(50px);
+  } 
+
+
+/*   RESPONSIV   */
+
+@media only screen and (max-width:768px){
+ 
+    .container{
+        max-width: 380px;
+    }
+    
+    header{
+        background-size: auto;
+    }
+
+    #hed .cot2{
+        margin-left: 10px;
+    }
+    
+    
+    #hed nav p{
+        width: 200px;
+        margin: 35px 0 30px 0;
+    }
+
+    .container2{
+        top: 78%;
+        right: 0%;
+
+      }
+     
+    
+
+
+  /*  SECTION 1 CSS START  */
+
+#section1 .features{
+    flex-direction: column;
+    
+}
+
+#section1 .features p{
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+
+/* SECTION 2 CSS START */
+
+#section2 .get{
+   flex-direction: column;
+}
+
+#section2 .get h3{
+  text-align: center;
+}
+
+#section2 .get p{
+    width: 80%;
+    margin:30px auto;
+}
+
+#section2 .get input{
+    width: 70%;
+}
+
+#section2 .get .btn{
+    width: 25%;
+}
+
+#section2 .get form{
+    justify-content: center;
+}
+#section2 .get iframe{
+    width: 90%;
+    justify-content: end;
+    margin-left: 20px;
+}
+
+
+/*   SETION 3 CSS START   */
+
+#section3 .ph p{
+    width: 96%;
+}
+
+#section3 .ph h3{
+    font: bold 18px var(---font1);
+    margin-top: 60px;
+}
+
+.touch .social a{
+    margin-left: 20px;
+     
+}
+
+
+
+
+
+}
